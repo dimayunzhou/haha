@@ -13,6 +13,7 @@
 		05B07C2F1D13AE7B00930FAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05B07C2D1D13AE7B00930FAC /* Main.storyboard */; };
 		05B07C311D13AE7B00930FAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05B07C301D13AE7B00930FAC /* Assets.xcassets */; };
 		05B07C341D13AE7B00930FAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05B07C321D13AE7B00930FAC /* LaunchScreen.storyboard */; };
+		05B07C3D1D13B3C300930FAC /* dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 05B07C3C1D13B3C300930FAC /* dog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		05B07C301D13AE7B00930FAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05B07C331D13AE7B00930FAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05B07C351D13AE7B00930FAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05B07C3B1D13B3C300930FAC /* dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dog.h; sourceTree = "<group>"; };
+		05B07C3C1D13B3C300930FAC /* dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				05B07C321D13AE7B00930FAC /* LaunchScreen.storyboard */,
 				05B07C351D13AE7B00930FAC /* Info.plist */,
 				05B07C241D13AE7B00930FAC /* Supporting Files */,
+				05B07C3B1D13B3C300930FAC /* dog.h */,
+				05B07C3C1D13B3C300930FAC /* dog.m */,
 			);
 			path = hehe;
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 			files = (
 				05B07C2C1D13AE7B00930FAC /* ViewController.m in Sources */,
 				05B07C291D13AE7B00930FAC /* AppDelegate.m in Sources */,
+				05B07C3D1D13B3C300930FAC /* dog.m in Sources */,
 				05B07C261D13AE7B00930FAC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
